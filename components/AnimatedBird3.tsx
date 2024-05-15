@@ -166,8 +166,8 @@ const AnimatedSVG = () => {
           y2="298.992"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFC7F6" />
-          <stop offset="1" stop-color="#D98DCD" />
+          <stop stopColor="#FFC7F6" />
+          <stop offset="1" stopColor="#D98DCD" />
         </linearGradient>
       </defs>
     </svg>
