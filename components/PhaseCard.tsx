@@ -1,5 +1,8 @@
-const PhaseCard = () => {
-  return <div>Enter</div>;
+type PhaseCardProps = {
+  title: string;
+  children: React.ReactNode;
 };
 
-export default PhaseCard;
+export default function PhaseCard({ props }: { props: PhaseCardProps }) {
+  return <div>{props.children}</div>;
+}

@@ -7,8 +7,31 @@ const Sacknomics = () => {
       <div className='flex flex-col-reverse'>
         <AnimatedSVG1 />
       </div>
-      <div className='flex flex-col h-[600px]'>
-        <div>SACKNOMICS</div>
+      <div className='flex flex-col justify-start items-center w-full'>
+        <div className='font-chakraPetch text-black text-[60px]'>
+          SACKNOMICS
+        </div>
+        <div className='flex justify-center items-center'>
+          <img src='/bird7.svg' alt='sack bird' width={987} height={680} />
+        </div>
+        <div className='grid grid-flow-row grid-rows-2 grid-cols-2 gap-8'>
+          <div className='flex flex-col gap-4 font-chakraPetch text-black'>
+            <div className='font-normal text-[24px]'>Total Supply</div>
+            <div className='font-bold text-[60px]'>1000M</div>
+          </div>
+          <div className='flex flex-col gap-4 font-chakraPetch text-black'>
+            <div className='font-normal text-[24px]'>100% Fair launch</div>
+            <div className='font-bold text-[60px]'>0% PRESALE</div>
+          </div>
+          <div className='flex flex-col gap-4 font-chakraPetch text-black'>
+            <div className='font-normal text-[24px]'>No Taxes</div>
+            <div className='font-bold text-[60px]'>No Bullshit</div>
+          </div>
+          <div className='flex flex-col gap-4 font-chakraPetch text-black'>
+            <div className='font-normal text-[24px]'>OWNERSHIP</div>
+            <div className='font-bold text-[60px]'>REVOKED</div>
+          </div>
+        </div>
       </div>
       <div className='flex flex-col'>
         <AnimatedSVG2 />
