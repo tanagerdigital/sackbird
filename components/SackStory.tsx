@@ -2,13 +2,13 @@ import AnimatedSVG from "./AnimatedBird3";
 
 const SackStory = () => {
   return (
-    <div className="w-full flex items-center">
-      <div className="bg-story-bg bg-contain bg-no-repeat w-2/3">
-        <div className="flex flex-col whitespace-pre-wrap pl-32 pr-52 pt-28 pb-28 relative right-1 bottom-3 bg-story-bg bg-contain bg-no-repeat">
-          <div className="font-chakraPetch font-bold text-[60px] leading-[78px]">
+    <div id='story' className='w-full flex items-center'>
+      <div className='bg-story-bg bg-contain bg-no-repeat w-2/3'>
+        <div className='flex flex-col whitespace-pre-wrap pl-32 pr-52 pt-28 pb-28 relative right-1 bottom-3 bg-story-bg bg-contain bg-no-repeat'>
+          <div className='font-chakraPetch font-bold text-[60px] leading-[78px]'>
             {"Sack Story"}
           </div>
-          <div className="font-chakraPetch font-normal text-[20px] leading-[26px] mt-[30px] flex flex-col gap-5">
+          <div className='font-chakraPetch font-normal text-[20px] leading-[26px] mt-[30px] flex flex-col gap-5'>
             <p>
               {
                 "The Legend of Sack Bird: A Omen of Prosperity In the fast-paced world of cryptocurrencies, traders seek any edge. Enter Sack Bird, a symbol of luck and wealth."
@@ -37,7 +37,7 @@ const SackStory = () => {
           </div>
         </div>
       </div>
-      <div className="w-1/3">
+      <div className='w-1/3'>
         <AnimatedSVG />
       </div>
     </div>
