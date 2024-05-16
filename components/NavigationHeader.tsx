@@ -14,7 +14,7 @@ const NavigationHeader = () => {
         <div className='border-[3px] border-black rounded-full h-full bg-white relative right-[5px] bottom-[3px] flex justify-between items-center font-chakraPetch font-bold text-[24px] leading-[31.2px]'>
           <div className='flex justify-start items-center gap-24 ml-16'>
             <div className='flex justify-center items-center'>
-              <img src='/sackbird.svg' alt='sack bird' width={55} height={55} />
+              <img src='/bird5.svg' alt='sack bird' width={55} height={55} />
             </div>
             <div
               className='cursor-pointer'
