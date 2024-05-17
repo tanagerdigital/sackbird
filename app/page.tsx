@@ -6,8 +6,8 @@ import Welcome from "@/components/Welcome";
 
 export default function Home() {
   return (
-    <main className='flex min-h-screen flex-col items-center justify-between bg-white'>
-      <header className='w-full flex justify-between items-center'>
+    <main className="flex w-screen min-w-[1440px] min-h-screen flex-col items-center justify-between bg-white">
+      <header className="w-full flex justify-between items-center">
         <NavigationHeader />
       </header>
 
@@ -18,8 +18,8 @@ export default function Home() {
       <Sacknomics />
 
       <RoadMap />
-      <footer className='flex justify-center items-center'>
-        <img src='/bird8.svg' alt='sack bird' width={141} height={123} />
+      <footer className="flex justify-center items-center">
+        <img src="/bird8.svg" alt="sack bird" width={141} height={123} />
       </footer>
     </main>
   );

@@ -3,14 +3,16 @@ import PhaseCard from "./PhaseCard";
 const RoadMap = () => {
   return (
     <div
-      id='roadmap'
-      className='flex flex-col justify-start items-center w-full py-10'
+      id="roadmap"
+      className="flex flex-col justify-start items-center w-full mt-[-100px] pb-[52px]"
     >
-      <div className='font-chakraPetch font-bold text-black text-[60px]'>
-        ROADMAP
+      <div className="font-chakraPetch font-bold text-black text-[60px] flex justify-center items-center">
+        <div className="w-[600px] h-[600px] bg-roadmap bg-cover flex justify-center items-center">
+          ROADMAP
+        </div>
       </div>
 
-      <div className='flex justify-center items-center gap-8 mt-[24px]'>
+      <div className="flex justify-center items-center gap-[50px] mt-[-200px]">
         <PhaseCard
           props={{
             title: "PHASE 1",

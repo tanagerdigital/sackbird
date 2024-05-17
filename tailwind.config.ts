@@ -13,6 +13,10 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "story-bg": "url('/story_background.svg')",
+        sackstory: "url('/bg-sackstory.svg')",
+        roadmap: "url('/bg-roadmap.svg')",
+        sacknomics: "url('/bg-sacknomics.svg')",
+        sackbird: "url('/bg-sackbird.svg')",
       },
       fontFamily: {
         chakraPetch: ["var(--font-chakra-petch)", "sans-serif"],

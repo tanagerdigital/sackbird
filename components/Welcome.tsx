@@ -7,7 +7,7 @@ const Welcome = () => {
         </div>
         <div className="font-chakraPetch font-normal text-[24px] leading-[32px] mt-[30px]">
           {
-            "Sackbird is a representative of the new generation of crypto memes. Crypto users can interact with Sackbird daily to receive a lucky boost for their crypto investments that day."
+            "Sackbird is the ultimate champion for all the underdogs in the crypto market—every small investor and project out there! Its stable triangular shape symbolizes the solid foundation and firm beliefs needed in crypto investing, guiding investors through market storms to success and fortune."
           }
         </div>
       </div>
