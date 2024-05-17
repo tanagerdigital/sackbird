@@ -1,4 +1,3 @@
-import EnlargeSvgPath from "@/components/EnlargeExample";
 import NavigationHeader from "@/components/NavigationHeader";
 import RoadMap from "@/components/RoadMap";
 import SackStory from "@/components/SackStory";
@@ -11,8 +10,6 @@ export default function Home() {
       <header className='w-full flex justify-between items-center'>
         <NavigationHeader />
       </header>
-
-      <EnlargeSvgPath />
 
       <Welcome />
 
