@@ -4,5 +4,11 @@ type PhaseCardProps = {
 };
 
 export default function PhaseCard({ props }: { props: PhaseCardProps }) {
-  return <div>{props.children}</div>;
+  return (
+    <div className='w-[350px] h-[600px] border-[4px] border-black rounded-[32px] bg-white'>
+      <div className='relative right-3 bottom-3 w-[350px] h-[600px] border-[4px] border-black rounded-[32px] bg-white'>
+        {props.children}
+      </div>
+    </div>
+  );
 }
