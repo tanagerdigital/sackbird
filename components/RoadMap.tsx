@@ -14,19 +14,37 @@ const RoadMap = () => {
         <PhaseCard
           props={{
             title: "PHASE 1",
-            children: undefined,
+            children: (
+              <div>
+                {
+                  "A prominent crypto influencer claimed Sack Bird appeared, coinciding with a doubling of his investment."
+                }
+              </div>
+            ),
           }}
         />
         <PhaseCard
           props={{
             title: "PHASE 2",
-            children: undefined,
+            children: (
+              <div>
+                {
+                  "Sackbird becomes the ultimate champion for all the underdogs in the crypto market—every small investor and project out there!"
+                }
+              </div>
+            ),
           }}
         />
         <PhaseCard
           props={{
             title: "PHASE 3",
-            children: undefined,
+            children: (
+              <div>
+                {
+                  "Sackbird leads its community followers, soaring between different crypto communities, always on the lookout for new get-rich opportunities."
+                }
+              </div>
+            ),
           }}
         />
       </div>

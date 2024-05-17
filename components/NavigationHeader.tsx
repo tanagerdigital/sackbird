@@ -42,10 +42,20 @@ const NavigationHeader = () => {
             </div>
           </div>
           <div className='flex justify-start items-center gap-16 flex-row-reverse mr-16'>
-            <div className='w-9 h-9 bg-[#D9D9D9] rounded-full cursor-pointer'>
+            <div
+              className='w-9 h-9 bg-[#D9D9D9] rounded-full cursor-pointer'
+              onClick={() =>
+                (window.location.href = "https://twitter.com/BurnTheBird2001")
+              }
+            >
               <img src='/telegram.png' alt='telegram' width={36} height={36} />
             </div>
-            <div className='w-9 h-9 bg-[#D9D9D9] rounded-full cursor-pointer'>
+            <div
+              className='w-9 h-9 bg-[#D9D9D9] rounded-full cursor-pointer'
+              onClick={() =>
+                (window.location.href = "https://t.me/burnthebird")
+              }
+            >
               <img src='/twitter.svg' alt='telegram' width={36} height={36} />
             </div>
             <div className='cursor-pointer'>Buy Sack</div>
