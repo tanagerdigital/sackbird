@@ -4,6 +4,12 @@ import { useSpring, animated } from "@react-spring/web";
 
 const AnimatedSVG = () => {
   // Create a spring for the cx attribute
+  const styles = useSpring({
+    from: { transform: "scale(1)" },
+    to: { transform: "scale(1.1)" },
+    loop: { reverse: true }, // Makes the animation go back and forth
+    config: { tension: 120, friction: 14, duration: 2000 },
+  });
 
   return (
     <svg
@@ -139,23 +145,35 @@ const AnimatedSVG = () => {
         stroke='black'
         strokeWidth='5'
       />
-      <path
+      <animated.path
         d='M88.5942 244.428C88.5942 267.622 79.9995 284.574 54.8756 282.096C34.5339 282.096 17.9808 257.292 17.9808 234.098C17.9808 210.904 26.7798 196.223 47.1215 196.223C67.4633 196.223 88.5942 221.234 88.5942 244.428Z'
         fill='#DA80CC'
         stroke='black'
         strokeWidth='3'
+        style={{
+          transformOrigin: "center",
+          ...styles,
+        }}
       />
-      <path
+      <animated.path
         d='M79.9829 244.428C79.9829 267.622 72.4362 284.574 50.3763 282.096C32.5152 282.096 17.9808 257.292 17.9808 234.098C17.9808 210.904 25.7067 196.223 43.5678 196.223C61.4288 196.223 79.9829 221.234 79.9829 244.428Z'
         fill='#C042AC'
         stroke='black'
         strokeWidth='3'
+        style={{
+          transformOrigin: "center",
+          ...styles,
+        }}
       />
-      <path
+      <animated.path
         d='M79.1217 243.587C79.1217 260.287 77.1386 272.755 58.7553 270.97C49.843 270.97 33.4813 249.953 33.4813 233.254C33.4813 216.554 37.5422 204.836 52.4264 204.836C67.3106 204.836 79.1217 226.888 79.1217 243.587Z'
         fill='black'
         stroke='black'
         strokeWidth='3'
+        style={{
+          transformOrigin: "center",
+          ...styles,
+        }}
       />
       <defs>
         <linearGradient
