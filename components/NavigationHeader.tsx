@@ -45,7 +45,7 @@ const NavigationHeader = () => {
             <div
               className="cursor-pointer"
               onClick={() =>
-                (window.location.href = "https://twitter.com/BurnTheBird2001")
+                (window.location.href = "https://t.me/burnthebird")
               }
             >
               <img src="/telegram.svg" alt="telegram" width={35} height={35} />
@@ -53,7 +53,7 @@ const NavigationHeader = () => {
             <div
               className="cursor-pointer mr-[26px]"
               onClick={() =>
-                (window.location.href = "https://t.me/burnthebird")
+                (window.location.href = "https://twitter.com/BurnTheBird2001")
               }
             >
               <img src="/twitter.svg" alt="telegram" width={35} height={35} />
