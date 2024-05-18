@@ -1,5 +1,6 @@
 import AnimatedSVG1 from "./AnimatedBird1";
 import AnimatedSVG2 from "./AnimatedBird2";
+import AnimatedSVG from "./AnimatedBird7";
 
 const Sacknomics = () => {
   return (
@@ -14,7 +15,8 @@ const Sacknomics = () => {
           </div>
         </div>
         <div className="flex justify-center items-center mt-[-226px]">
-          <img src="/bird7.svg" alt="sack bird" width={987} height={680} />
+          {/* <img src="/bird7.svg" alt="sack bird" width={987} height={680} /> */}
+          <AnimatedSVG />
         </div>
         <div className="grid grid-flow-row grid-rows-2 grid-cols-2 gap-[70px] mt-[76px]">
           <div className="flex flex-col gap-[15px] font-chakraPetch text-black">

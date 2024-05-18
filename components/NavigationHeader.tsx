@@ -12,7 +12,7 @@ const NavigationHeader = () => {
     <div className="w-full p-10">
       <div className="border-[3px] border-black rounded-full h-[85px] bg-white">
         <div className="border-[3px] border-black rounded-full h-full bg-white relative right-[5px] bottom-[3px] flex justify-between items-center font-chakraPetch font-bold text-[24px] leading-[31.2px]">
-          <div className="flex justify-start items-center gap-10 ml-16">
+          <div className="flex justify-start items-center gap-10 ml-16 text-black">
             <div className="flex justify-center items-center">
               <img src="/bird5.svg" alt="sack bird" width={55} height={55} />
             </div>
