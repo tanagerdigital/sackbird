@@ -4,15 +4,15 @@ const RoadMap = () => {
   return (
     <div
       id="roadmap"
-      className="flex flex-col justify-start items-center w-full mt-[-100px] pb-[52px]"
+      className="flex flex-col justify-start items-center lg:mt-[-100px] lg:pb-[52px]"
     >
-      <div className="font-chakraPetch font-bold text-black text-[60px] flex justify-center items-center">
-        <div className="w-[600px] h-[600px] bg-roadmap bg-cover flex justify-center items-center">
+      <div className="font-chakraPetch font-bold text-black text-[30px] lg:text-[60px] flex justify-center items-center">
+        <div className="w-[300px] h-[300px] lg:w-[600px] lg:h-[600px] bg-roadmap bg-cover flex justify-center items-center">
           ROADMAP
         </div>
       </div>
 
-      <div className="flex justify-center items-center gap-[50px] mt-[-200px]">
+      <div className="flex flex-col lg:flex-row justify-center items-center gap-[20px] lg:gap-[50px] mt-[-100px] lg:mt-[-200px]">
         <PhaseCard
           props={{
             title: "PHASE 1",

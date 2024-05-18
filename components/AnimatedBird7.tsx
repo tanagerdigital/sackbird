@@ -13,6 +13,7 @@ const AnimatedSVG = () => {
 
   return (
     <svg
+      className="w-[232px] h-[160px] lg:w-[900px] lg:h-[620px]"
       width="987"
       height="680"
       viewBox="0 0 987 680"

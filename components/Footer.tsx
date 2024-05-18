@@ -9,7 +9,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="flex justify-center items-center mb-20">
+    <footer className="flex justify-center items-center my-10 lg:mb-20">
       <img
         className=" cursor-pointer"
         src="/bird8.svg"

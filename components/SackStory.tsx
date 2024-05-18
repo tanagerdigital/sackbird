@@ -2,13 +2,16 @@ import AnimatedSVG from "./AnimatedBird3";
 
 const SackStory = () => {
   return (
-    <div id="story" className="w-full flex items-center">
-      <div className="bg-story-bg bg-cover bg-no-repeat w-[993px] h-[774px]">
-        <div className="flex flex-col whitespace-pre-wrap pl-32 pr-32 pt-32 pb-48 relative right-1 bottom-3 bg-story-bg bg-cover bg-no-repeat w-[993px] h-[774px]">
-          <div className="font-chakraPetch font-bold text-[60px] text-black leading-[78px]">
+    <div
+      id="story"
+      className="w-full flex justify-center lg:justify-start items-center mt-[60px] lg:mt-0"
+    >
+      <div className="bg-story-bg bg-cover bg-no-repeat w-[223px] h-[174px] lg:w-[993px] lg:h-[774px]">
+        <div className="flex justify-center items-center lg:justify-start lg:items-start lg:flex-col whitespace-pre-wrap lg:px-32 lg:pt-32 lg:pb-48 relative right-1 bottom-[2px] lg:bottom-3 bg-story-bg bg-cover bg-no-repeat w-[223px] h-[174px] lg:w-[993px] lg:h-[774px]">
+          <div className="font-chakraPetch font-bold text-[30px] lg:text-[60px] text-black leading-[39px] lg:leading-[78px]">
             {"Sack Story"}
           </div>
-          <div className="font-chakraPetch font-normal text-[20px] text-black leading-[26px] mt-[30px] flex flex-col gap-5">
+          <div className="hidden  font-chakraPetch font-normal text-[20px] text-black leading-[26px] mt-[30px] lg:flex flex-col gap-5">
             <p>
               {
                 "The Legend of Sack Bird: A Omen of Prosperity In the fast-paced world of cryptocurrencies, traders seek any edge. Enter Sack Bird, a symbol of luck and wealth."
@@ -39,7 +42,6 @@ const SackStory = () => {
       </div>
       <div className="w-1/3 flex justify-center relative">
         <AnimatedSVG />
-        <div className="absolute bg-sackstory bg-contain bg-no-repeat w-[505px] h-[628px]" />
       </div>
     </div>
   );
