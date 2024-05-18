@@ -1,3 +1,5 @@
+import BirdsTransition from "./BirdsTransition";
+
 const Welcome = () => {
   return (
     <div className="w-full p-[76px] flex justify-between items-start">
@@ -11,8 +13,8 @@ const Welcome = () => {
           }
         </div>
       </div>
-      <div className="">
-        <img src="/bird4.svg" alt="sack bird" width={544} height={464} />
+      <div className="mt-[-120px]">
+        <BirdsTransition />
       </div>
     </div>
   );

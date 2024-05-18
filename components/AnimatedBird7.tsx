@@ -5,8 +5,8 @@ import { useSpring, animated } from "@react-spring/web";
 const AnimatedSVG = () => {
   // Create a spring for the cx attribute
   const styles = useSpring({
-    from: { transform: "scale(1)" },
-    to: { transform: "scale(1.1)" },
+    from: { transform: "scale(0.8)" },
+    to: { transform: "scale(1.2)" },
     loop: { reverse: true }, // Makes the animation go back and forth
     config: { tension: 120, friction: 14, duration: 2000 },
   });
