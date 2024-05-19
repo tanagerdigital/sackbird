@@ -14,7 +14,13 @@ const Welcome = () => {
         </div>
       </div>
       <div className="mb-[25px] lg:mt-[-120px]">
-        <BirdsTransition />
+        <div>
+          <BirdsTransition />
+        </div>
+        <div className="flex">
+          <div className="w-[51px] h-[23px] lg:w-[196px] lg:h-[88px] bg-hand lg:bg-hand-lg bg-contain bg-no-repeat" />
+          Sack bird
+        </div>
       </div>
     </div>
   );

@@ -17,6 +17,8 @@ const config: Config = {
         roadmap: "url('/bg-roadmap.svg')",
         sacknomics: "url('/bg-sacknomics.svg')",
         sackbird: "url('/bg-sackbird.svg')",
+        hand: "url('/hand.png')",
+        "hand-lg": "url('/hand-lg.png')",
       },
       fontFamily: {
         chakraPetch: ["var(--font-chakra-petch)", "sans-serif"],
