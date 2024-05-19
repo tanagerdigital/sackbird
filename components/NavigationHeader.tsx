@@ -58,9 +58,9 @@ const NavigationHeader = () => {
             >
               <img src="/twitter.svg" alt="telegram" width={35} height={35} />
             </div>
-            <div className="cursor-pointer mr-10 text-[16px] text-black lg:text-[24px]">
+            {/* <div className="cursor-pointer mr-10 text-[16px] text-black lg:text-[24px]">
               Buy Sack
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
