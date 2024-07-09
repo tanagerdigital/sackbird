@@ -20,7 +20,7 @@ const Sacknomics = () => {
         <div className='grid grid-flow-row grid-rows-4 grid-cols-1 lg:grid-rows-2 lg:grid-cols-2 gap-[20px] lg:gap-[70px] mt-[76px]'>
           <div className='flex flex-col gap-[4px] lg:gap-[15px] font-chakraPetch text-black'>
             <div className='font-normal text-[24px]'>Total Supply</div>
-            <div className='font-bold text-[40px] lg:text-[60px]'>TBD</div>
+            <div className='font-bold text-[40px] lg:text-[60px]'>TBA</div>
           </div>
           <div className='flex flex-col gap-[4px] lg:gap-[15px] font-chakraPetch text-black'>
             <div className='font-normal text-[24px]'>100% Fair launch</div>
