@@ -40,8 +40,7 @@ export const metadata: Metadata = {
     images: ["https://sackbird.vercel.app/sackbird.svg"],
   },
   verification: {
-    google:
-      "google-site-verification=vgo_FEwFemywRNfnkzcEHaQVpG45Yv6_46phbLQgjbM",
+    google: "vgo_FEwFemywRNfnkzcEHaQVpG45Yv6_46phbLQgjbM",
   },
 };
 
