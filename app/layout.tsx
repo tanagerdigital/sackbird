@@ -18,6 +18,8 @@ export const metadata: Metadata = {
     "Sack Bird Game Telegram",
     "Telegram Sack Bird Game",
     "SackBird",
+    "sack bird",
+    "sack & bird",
     "NotCoin",
     "Telegram",
     "Ton",
@@ -51,6 +53,9 @@ export const metadata: Metadata = {
     "Best Telegram games like Sack Bird",
     "Sack Bird memes and community",
   ],
+  icons: {
+    icon: "/favicon.ico",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -88,7 +93,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en'>
+    <html lang="en">
       <body className={chakraPetch.className}>{children}</body>
     </html>
   );
